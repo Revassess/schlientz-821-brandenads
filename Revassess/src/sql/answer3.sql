@@ -1,0 +1,1 @@
+select * from app_user inner join study_set on study_set.owner_id=app_user.user_id where user_id=5;
